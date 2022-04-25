@@ -1,0 +1,206 @@
+
+
+@font-face {
+    font-family: Arial;
+    src: url("ErotiqueAlternateTrial-Regular.ttf")
+      format("opentype");
+  }
+  @font-face {
+    font-family: HK Grotesk;
+    font-weight: bold;
+    src: url("HannaHandwriting.ttf")
+      format("opentype");
+  }
+  p {
+    font-family: HK Grotesk;
+    }
+    body {
+      overflow-y: scroll;
+  }
+    h1 { 
+      font-weight: 100; 
+      font-family: arial;
+      font-size: 2.5em;
+      
+    }
+
+    #mainInfo {
+        width: 600px; 
+        margin: 0 auto; 
+        margin-top: 50px; 
+        color:white;
+        text-align: center; 
+        font-family: arial; 
+        font-weight: 200;
+    }
+
+    div.answer {
+        background-color: rgba(196, 0, 147, 0.426);
+        border-radius: 50%;
+        width: 30%;
+        height: 25%;
+        bottom:460px;
+        left:0px;
+        margin: 25% auto;
+        position:relative;
+    }
+    div.answer {
+        background-color: rgba(196, 0, 147, 0.426);
+        border-radius: 50%;
+        width: 30%;
+        height: 25%;
+        bottom:460px;
+        left:0px;
+        margin: 25% auto;
+        position:relative;
+    }
+ 
+    p#response {
+        font-size: 50px;
+        margin: 0% auto;
+        color: white;
+    }
+
+    p#answer {
+        padding: 23px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 2px;
+        font-size:20px;
+      }
+
+      div.image::before {
+        content:url(heartmain.png);
+        position:relative;
+      }
+
+      #question {
+        margin: 20px;
+        padding: 10px;
+        width: 400px;
+        font-size:22px;
+      }
+      
+      #info {
+        font-size: 17px;
+        top:10px;
+      }
+
+
+    .image:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+     }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    
+    30%, 50%, 70% {
+      transform: translate3d(-2px, 0, 0);
+    }
+    40%, 60% {
+      transform: translate3d(2px, 0, 0);
+  }
+  }
+
+  .startButton {
+    border-radius: 25px;
+    bottom:500px;
+    position:relative;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  
+  }
+  
+  .startButton {
+    border-radius: 25px;
+    background-color: rgb(156, 223, 237);
+    color: rgb(255, 111, 159);
+    border: 2px solid #ffffff;
+  }
+  
+  .startButton:hover {
+    border-radius: 25px;
+    background-color: rgb(237, 156, 194);
+    color: white;
+  }
+  
+  .answerButton {
+    bottom:600px;
+  
+    position:relative;  
+    border:none;
+  
+  
+    
+    padding: 16px 32px;
+  
+    text-align: center;
+    text-decoration: none;
+  
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+  }
+  
+  .answerButton {
+    border-radius: 25px;
+    border:none;
+    background-color: rgb(156, 223, 237);
+    color: rgb(255, 111, 159);
+  }
+  
+  .answerButton:hover {
+    border-radius: 25px;
+    background-color: rgb(237, 156, 194);
+    color: white;
+  }
+  
+  .tryButton {
+    top:20px;
+    border:none;
+    position:fixed;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  
+  
+  }
+
+  .tryButton {
+    border-radius: 25px;
+    background-color: rgb(255, 111, 159);
+    color: rgb(156, 223, 237);
+  }
+  
+  .tryButton:hover {
+    border-radius: 25px;
+    background-color: rgb(156, 223, 237);
+    color: white;
+  }
+  
+  input[type=text] {
+    border: 2px solid rgb(255, 187, 208);
+    width:  20px;
+    height:10px;
+    border-radius: 6px;
+    transition: width 0.6s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 40%;
+  }
+  
